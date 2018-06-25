@@ -24,6 +24,7 @@ The notebook requires boto3 in order to retrieve data from AWS. To install and c
 
 and `follow the directions <https://boto3.readthedocs.io/en/latest/guide/quickstart.html>`_ in order to setup the proper configurations.
 
+
 Installing nodejs & ipywidgets
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -38,6 +39,7 @@ Before installing `ipywidgets <https://ipywidgets.readthedocs.io/en/latest/user_
 with conda:
 
 ::
+
 	conda install -c conda-forge ipywidgets
 
 
@@ -53,10 +55,12 @@ Installing Plotly
 To install Plotly, use the following command:
 
 ::
+
 	pip install plotly
 
 
 JupyterLab users will need to use an additional command in order for the graphs to display:
 
 ::
+
 	jupyter labextension install @jupyterlab/plotly-extension
