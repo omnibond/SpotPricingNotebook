@@ -42,13 +42,16 @@ with conda:
 
 	conda install -c conda-forge ipywidgets
 
+
 JupyterLab users will need to use an additional command in order for the input widgets to display:
 
 ::
 
 	jupyter labextension install @jupyter-widgets/jupyterlab-manager
 
-Users who are having issues installing the widgets for JupyterLab or those who aren't using the latest version should refer to `version compatiblity <https://github.com/jupyter-widgets/ipywidgets/tree/master/packages/jupyterlab-manager#version-compatibility>`_  page and select the command that is compaitible to the version of JupyterLab.
+
+Users who are having issues installing the widgets for JupyterLab or those who aren't using the latest version should refer to `version compatiblity <https://github.com/jupyter-widgets/ipywidgets/tree/master/packages/jupyterlab-manager#version-compatibility>`_  page and select the command that is compaitible to your version of JupyterLab.
+
 
 Installing fbprophet
 ^^^^^^^^^^^^^^^^^^^^
