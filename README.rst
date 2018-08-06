@@ -1,4 +1,4 @@
-SporPricingForcasting
+Spot Pricing Forcasting Notebook
 =====================
 
 A notebook that forecasts Spot Pricing for an instance in Amazon Web Services (AWS). This uses boto3 to retrieve data from Amazon Web Service, organize the data into a dataframe, predict and plot observed and future data using Prophet and Plotly.
